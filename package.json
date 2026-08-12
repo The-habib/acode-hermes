@@ -1,0 +1,32 @@
+{
+  "name": "acode-hermes",
+  "version": "1.0.0",
+  "description": "Nous Research Hermes Agent integration plugin for Acode Terminal on Android",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test tests/*.test.js",
+    "validate": "node scripts/validate-acode-plugin.js",
+    "lint": "node -c dist/main.js"
+  },
+  "keywords": [
+    "acode",
+    "plugin",
+    "hermes",
+    "hermes-agent",
+    "terminal",
+    "ai",
+    "cli",
+    "android"
+  ],
+  "author": {
+    "name": "Nous Research & Antigravity",
+    "email": "support@nousresearch.com",
+    "url": "https://nousresearch.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.0"
+  }
+}

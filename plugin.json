@@ -1,0 +1,28 @@
+{
+  "id": "com.acode.hermes",
+  "name": "Acode Hermes Agent",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "README.md",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode": 292,
+  "price": 0,
+  "license": "MIT",
+  "keywords": [
+    "hermes",
+    "hermes-agent",
+    "terminal",
+    "ai",
+    "cli",
+    "android"
+  ],
+  "changelogs": "CHANGELOG.md",
+  "author": {
+    "name": "Nous Research & Antigravity",
+    "email": "support@nousresearch.com",
+    "url": "https://nousresearch.com",
+    "github": "NousResearch"
+  },
+  "repository": "https://github.com/NousResearch/hermes-agent"
+}
